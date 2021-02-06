@@ -1,0 +1,8 @@
+# AmazonSpider
+Amazon 爬虫系列，使用前需先修改MongoDB中相关信息
+其中：
+AmazonFBT 为解析Amazon Listing页面FBT信息爬虫
+ArriveDate 为爬取并计算商品配送天数爬虫
+badreview 为获取Amazon 指定产品Review数量及中差评文本爬虫，计算往期review数量差，选出新增中差评文本
+AmazonEurope 为亚马逊英国站及德国站信息，抓取并对比两日数据
+octopus_daily_monitoring 为调用八爪鱼接口，清洗当日爬虫信息，处理后以Excel形式展示
